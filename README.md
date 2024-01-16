@@ -20,7 +20,6 @@
 2. 在项目根目录下创建一个名为 `conf.ini` 的配置文件，并按照以下格式添加你的搬瓦工 VPS 信息：
 
    ```
-   makefileCopy code
    [machine1]
    veid = 你的veid1
    api_key = 你的api_key1
@@ -35,7 +34,6 @@
 3. 在终端中，导航到项目根目录并运行以下命令以启动监控工具：
 
    ```
-   Copy code
    python bandwagonhost_data_multi.py
    ```
 
